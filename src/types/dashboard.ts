@@ -8,4 +8,5 @@ export interface PagoFormaPro {
   estado: 'completed' | 'refunded' | 'failed';
   fecha: string;
   procesado_en?: string;
+  tasa_cambio?: number;
 }

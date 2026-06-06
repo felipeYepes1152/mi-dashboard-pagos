@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { createClient } from '@/src/lib/supabase/client'
-import type { PagoFormaPro } from '@/src/types/database'
+import type { PagoFormaPro } from '@/src/types/dashboard'
 
 export default function TestConnection() {
   // 1. Reemplazamos any[] por PagoFormaPro[]
